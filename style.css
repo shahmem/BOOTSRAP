@@ -1,0 +1,85 @@
+body{
+    overflow-x: hidden;
+}
+.op1 a{
+    opacity: .8;
+}
+.op1 a:hover{
+    opacity: 1 !important;
+}
+.navbar{
+    background-color: rgba(110,43,243,255) !important;
+    padding-right: 3rem !important;
+    padding-left: 2rem !important;
+}
+.ul{
+    margin-left: 3rem;
+}
+.logo img{
+    position: absolute;
+    top: 10px;
+    width: auto;
+    rotate: 0deg;
+}
+.logo img:hover{
+    rotate: -8deg;
+    width: 42px;
+    height: auto;
+    top: 8px;
+}
+.drop-item{
+    list-style-type: none;
+}
+.drop-item img{
+    width: 20px;
+    height: auto;
+}
+.twitt{
+    width: 28px !important;
+    height: auto;
+}
+.color a{
+    color: white !important;
+}
+.sr1{
+    position: absolute;
+    margin-left: 6px;
+    margin-top: 0.6%;
+    color: rgba(255, 255, 255, 0.568) !important;
+    font-size: 1.4rem !important;
+}
+input{
+    background-color: rgba(90,43,223,255) !important;
+    padding-left: 2rem !important;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.651) !important;
+    font-size: 1.1rem;
+}
+.drp a:hover{
+    background-color: rgba(110, 43, 243, 0.212) !important;
+}
+.drp a:focus,
+.drp a:active
+{
+    background-color: rgb(60, 18, 145) !important;
+}
+.form-control:focus,
+.form-control:active{
+    box-shadow: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.527) !important;
+}
+.form-control:hover{
+    box-shadow: 0px 0px 3px 2px rgba(255, 217, 0, 0.541) !important;
+}
+.vr{
+    position: absolute;
+    width: 1px;
+    color: rgba(255, 255, 255, 0.767);
+    height: 54%;
+    margin-top: 0.38%;
+    margin-left: 4px;
+}
+.ver{
+    margin-left: 7px;
+}
